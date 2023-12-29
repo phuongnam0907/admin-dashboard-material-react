@@ -3,8 +3,8 @@
 * Material Dashboard 2 React - v2.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: http://lpnserver.net/product/material-dashboard-react
+* Copyright 2023 phuongnam0907 (http://lpnserver.net)
 
 Coded by www.creative-tim.com
 
@@ -99,12 +99,12 @@ function Footer({ company, links }) {
 
 // Setting default values for the props of Footer
 Footer.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Tim" },
+  company: { href: "http://lpnserver.net/", name: "phuongnam0907" },
   links: [
-    { href: "https://www.creative-tim.com/", name: "Creative Tim" },
-    { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-    { href: "https://www.creative-tim.com/blog", name: "Blog" },
-    { href: "https://www.creative-tim.com/license", name: "License" },
+    { href: "http://lpnserver.net/", name: "phuongnam0907" },
+    { href: "http://lpnserver.net/presentation", name: "About Us" },
+    { href: "http://lpnserver.net/blog", name: "Blog" },
+    { href: "http://lpnserver.net/license", name: "License" },
   ],
 };
 
