@@ -62,7 +62,7 @@ const routes = [
     component: <Profile />,
   },
   {
-    type: "collapse",
+    type: "authentication",
     name: "Sign In",
     key: "sign-in",
     icon: <Icon fontSize="small">login</Icon>,
@@ -70,7 +70,7 @@ const routes = [
     component: <SignIn />,
   },
   {
-    type: "collapse",
+    type: "authentication",
     name: "Sign Up",
     key: "sign-up",
     icon: <Icon fontSize="small">assignment</Icon>,

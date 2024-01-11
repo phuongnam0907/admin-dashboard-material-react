@@ -14,7 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 // @mui material components
 import Card from "@mui/material/Card";
@@ -33,6 +34,12 @@ import CoverLayout from "layouts/authentication/components/CoverLayout";
 import bgImage from "assets/images/bg-sign-up-cover.jpeg";
 
 function Cover() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("authenticated") == "true") {
+      navigate("/dashboard");
+    }
+  });
   return (
     <CoverLayout image={bgImage}>
       <Card>
